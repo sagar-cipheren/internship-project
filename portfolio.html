@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Awesome Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #9ac3ed;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ecf0f1;
+            box-shadow: 0 0 10px rgba(5, 5, 5, 0.1);
+            border-radius: 8px;
+        }
+
+        h1,
+        h2,
+        p {
+            color: #34495e;
+        }
+
+        h2 {
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .portfolio-item {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(39, 38, 38, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .portfolio-item p {
+            padding: 15px;
+            background-color: #ccdce8;
+            margin: 0;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer {
+            background-color: #becddb;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .portfolio-item {
+                flex: 0 0 calc(100% - 20px);
+            }
+        }
+        li{ list-style: none;
+
+            
+        }
+        .image{
+            height: 0.5px;
+            width: 0.1px;
+            
+            
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>sagar kale</h1>
+        <p>Web Developer    </p>
+    </header>
+    <div class="image">
+        <img src="img.2.jpeg" alt="Profile Photo" >
+     </div>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am currently in my third year of engineering, specializing in Electronics and Telecommunication (EXTX). I
+            possess knowledge in various programming languages, including Python, HTML, CSS, C++, and SQL..</p>
+    </section>
+
+    <section>
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="portfolio-item1.jpg" alt="Skills">
+                <p> <li>
+                    <ul>Python</ul>
+                </li>
+                <li>
+                    <ul>C++</ul>
+                </li>
+                    
+                
+                <li>
+                    <ul>HTML</ul>
+                </li>
+                <li>
+                    <ul>CSS</ul>
+                </li>
+                <!-- <li>
+                    <ul>Javascript</ul>
+                </li> -->
+                
+                
+                <!-- <li>
+                    <ul>Postman Tool</ul>
+                </li> -->
+                <!-- <li>
+                    <ul>Database Testing</ul>
+                </li>
+                <li>
+                    <ul>Manual Testing</ul>
+                </li></p> -->
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio-item2.jpg" alt="Projects">
+                <p> 
+                    <li >
+                        <ul> making landing page</ul>
+                    </li>
+                    <li>
+                        <ul>making portfolio</ul>
+                    </li>
+                    <li>
+                        <ul>tempreture converter website</ul>
+                    </li>
+
+                </p>
+            </div>
+            <div class="portfolio-item">
+                <img src="" alt="Experience">
+                <p>
+                    <li>
+                        <ul> cipherentechnology as a intern</ul>
+                    </li>
+                    <li>
+                        <ul> 6 months Experience in PVK PVT LMT </ul>
+                    </li>
+
+                    <li>
+                        <ul> OIB as a intern</ul>
+                    </li>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>@sagar kale. </p>
+    </footer>
+    
+
+</body>
+
+</html>
